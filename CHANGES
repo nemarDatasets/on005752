@@ -1,3 +1,6 @@
+2.0.2 2025-02-18
+  - A few possibly identifying fields across 9 phenotype TSV files were removed after an anonymous report.
+  - All MEG *_coordsystem.json files were removed after discovering they were inaccurate.
 2.0.1 2024-08-20
   - Age rounded from float to integer for sub-ON64412 in `participants.tsv`
 2.0.0 2024-08-20
