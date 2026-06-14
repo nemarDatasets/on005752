@@ -1,21 +1,31 @@
 {
   "version": "2.0",
-  "dataset_id": "on005752",
-  "source": "openneuro",
-  "source_id": "ds005752",
+  "pipeline_stage": "validated",
   "title": "The NIMH Healthy Research Volunteer Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Allison C. Nugent": {},
-    "Adam G Thomas": {},
+    "Allison C. Nugent": {
+      "orcid": "0000-0003-2569-2480"
+    },
+    "Adam G Thomas": {
+      "orcid": "0000-0002-2850-1419"
+    },
     "Margaret Mahoney": {},
     "Alison Gibbons": {},
     "Jarrod Smith": {},
     "Antoinette Charles": {},
-    "Jacob S Shaw": {},
+    "Jacob S Shaw": {
+      "orcid": "0000-0002-7906-9945"
+    },
     "Jeffrey D Stout": {},
-    "Anna M Namyst": {},
+    "Anna M Namyst": {
+      "orcid": "0000-0001-6273-2205"
+    },
     "Arshitha Basavaraj": {},
-    "Eric Earl": {},
+    "Eric Earl": {
+      "orcid": "0000-0001-5512-0083"
+    },
     "Dustin Moraczewski": {},
     "Emily Guinee": {},
     "Michael Liu": {},
@@ -29,46 +39,126 @@
     "Peter A Bandettini": {},
     "Joyce Chung": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005752.v2.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005752",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005752",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-022-01623-9",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.psychres.2020.112822",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1371/journal.pone.0184661",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1038/s41592-018-0235-4",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
-    "anat",
-    "dwi",
-    "fmap",
-    "func",
-    "meg",
-    "perf"
-  ],
-  "datatypes": [
-    "anat",
-    "dwi",
-    "fmap",
-    "func",
-    "meg",
-    "perf"
   ],
   "funding_references": [
     {
-      "funder_name": "ZICMH002889"
+      "funder_name": "NIH",
+      "award_number": "ZICMH002889"
     },
     {
-      "funder_name": "ZICMH002960"
+      "funder_name": "NIH",
+      "award_number": "ZICMH002960"
     },
     {
-      "funder_name": "ZIAMH002783"
+      "funder_name": "NIH",
+      "award_number": "ZIAMH002783"
     },
     {
-      "funder_name": "ZIDMH00291"
+      "funder_name": "NIH",
+      "award_number": "ZIDMH00291"
     }
   ],
-  "acknowledgements": "We thank the NIMH Office of the Clinical Director, the outpatient behavioral health clinic and NMR center for providing support for the data collection. This work utilized the computational resources of the NIH HPC Biowulf cluster http://hpc.nih.gov. We thank Sil van der Woerd for graciously allowing us to use his film as a behavioral task. In addition, we thank the subjects who generously contributed their data to this project."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "dwi",
+    "anat",
+    "func",
+    "perf",
+    "fmap",
+    "meg"
+  ],
+  "resource_type_specific": "Diffusion MRI Dataset",
+  "sizes": [
+    "680.0 GB (11000 files)"
+  ],
+  "formats": [
+    ".acq",
+    ".bak",
+    ".bval",
+    ".bvec",
+    ".cfg",
+    ".cls",
+    ".de",
+    ".ds/BadChannels",
+    ".ds/tmp1zoi67or",
+    ".ds/tmpoqqn4ln5",
+    ".dsc",
+    ".gz",
+    ".hc",
+    ".hist",
+    ".infods",
+    ".json",
+    ".md",
+    ".meg4",
+    ".mrk",
+    ".newds",
+    ".pdf",
+    ".res4",
+    ".tsv",
+    ".txt",
+    ".xml",
+    ".yml"
+  ],
+  "description": "The NIMH Healthy Research Volunteer Dataset is a comprehensive multimodal neuroimaging resource characterizing 1,859 healthy adults through clinical assessments, psychometric measures, neuropsychological testing, structural and functional MRI, diffusion tensor imaging, and magnetoencephalography. This dataset provides unprecedented depth of phenotypic characterization of a healthy population and enables investigations into normal cognition, mood regulation, and brain function across diverse cognitive domains.",
+  "methods_description": "Data collection includes online screening questionnaires (demographics, WHODAS 2.0, DSM-5 cross-cutting measures, AUDIT, Edinburgh Handedness Inventory), in-person clinical assessments (History and Physical, SCID-5, KBIT-2), biological measures (blood pressure, complete blood count, viral markers, drug screening), and neuroimaging. MRI protocol includes T1, T2 FLAIR, pCASL, DTI with distortion correction, and resting-state fMRI. MEG includes resting-state, task-based paradigms (faces, scenes, language, motor), and empty room recordings. Participants also complete NIH Toolbox Cognition Battery tasks assessing attention, executive function, episodic memory, and working memory.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "MRI"
+    },
+    {
+      "term": "DTI"
+    },
+    {
+      "term": "healthy volunteers"
+    },
+    {
+      "term": "neuropsychological assessment"
+    },
+    {
+      "term": "resting-state fMRI"
+    },
+    {
+      "term": "cognitive function"
+    }
+  ],
+  "source_hash": "2a6fe3768f6126b82c8c59d5e2bd0a9659b11d5fdc89b3a1a700f321a07e1381"
 }
