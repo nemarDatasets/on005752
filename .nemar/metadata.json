@@ -1,0 +1,74 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005752",
+  "source": "openneuro",
+  "source_id": "ds005752",
+  "title": "The NIMH Healthy Research Volunteer Dataset",
+  "authors": {
+    "Allison C. Nugent": {},
+    "Adam G Thomas": {},
+    "Margaret Mahoney": {},
+    "Alison Gibbons": {},
+    "Jarrod Smith": {},
+    "Antoinette Charles": {},
+    "Jacob S Shaw": {},
+    "Jeffrey D Stout": {},
+    "Anna M Namyst": {},
+    "Arshitha Basavaraj": {},
+    "Eric Earl": {},
+    "Dustin Moraczewski": {},
+    "Emily Guinee": {},
+    "Michael Liu": {},
+    "Travis Riddle": {},
+    "Joseph Snow": {},
+    "Shruti Japee": {},
+    "Morgan Andrews": {},
+    "Adriana Pavletic": {},
+    "Stephen Sinclair": {},
+    "Vinai Roopchansingh": {},
+    "Peter A Bandettini": {},
+    "Joyce Chung": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005752.v2.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "anat",
+    "dwi",
+    "fmap",
+    "func",
+    "meg",
+    "perf"
+  ],
+  "datatypes": [
+    "anat",
+    "dwi",
+    "fmap",
+    "func",
+    "meg",
+    "perf"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "ZICMH002889"
+    },
+    {
+      "funder_name": "ZICMH002960"
+    },
+    {
+      "funder_name": "ZIAMH002783"
+    },
+    {
+      "funder_name": "ZIDMH00291"
+    }
+  ],
+  "acknowledgements": "We thank the NIMH Office of the Clinical Director, the outpatient behavioral health clinic and NMR center for providing support for the data collection. This work utilized the computational resources of the NIH HPC Biowulf cluster http://hpc.nih.gov. We thank Sil van der Woerd for graciously allowing us to use his film as a behavioral task. In addition, we thank the subjects who generously contributed their data to this project."
+}
