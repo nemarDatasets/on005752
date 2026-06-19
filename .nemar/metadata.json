@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The NIMH Healthy Research Volunteer Dataset",
-  "description": "The NIMH Healthy Research Volunteer Dataset is a comprehensive neuroimaging and clinical characterization study of 1,859 healthy adults. The dataset includes structural and functional MRI, diffusion tensor imaging, magnetoencephalography, cognitive assessments, psychiatric screening measures, and biological samples. This resource provides unprecedented depth of phenotypic characterization for investigating normal cognition, mood regulation, and brain function in a healthy population.",
-  "methods_description": "Data collection includes clinical assessments (SCID-5, KBIT-2, NIH Toolbox Cognition Battery), psychometric measures (WHODAS 2.0, DSM-5 cross-cutting symptom measures, GAD-7, PHQ-9), biological measures (blood pressure, complete blood count, viral markers, drug screening), structural MRI (T1, T2, 3D FLAIR), functional MRI (resting-state multi-echo sequence), diffusion tensor imaging with reversed-blip distortion correction, and comprehensive MEG battery including resting-state and task-based acquisitions. Blood samples are banked for future genetic analysis.",
+  "description": "The NIMH Healthy Research Volunteer Dataset is a comprehensive neuroimaging and clinical characterization study of 1,859 healthy adults. The dataset includes structural and functional MRI, diffusion tensor imaging, magnetoencephalography, cognitive assessments, psychiatric evaluations, and biospecimens. This resource enables investigations into normal cognition, mood regulation, and brain function across a deeply phenotyped healthy population.",
+  "methods_description": "Data collection includes clinical interviews (SCID-5), cognitive testing (KBIT-2, NIH Toolbox), psychiatric assessments (DSM-5 measures, WHODAS 2.0), and neuroimaging. MRI protocol includes T1, T2, FLAIR, pCASL, DTI, and resting-state fMRI acquisitions. MEG battery comprises resting-state, task-based, and empty room recordings. Biological measures include blood pressure, laboratory panels, and banked blood samples for genetic analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -58,7 +58,7 @@
       "term": "cognitive assessment"
     },
     {
-      "term": "psychiatric screening"
+      "term": "psychiatric evaluation"
     },
     {
       "term": "diffusion tensor imaging"
