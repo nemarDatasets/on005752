@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "The NIMH Healthy Research Volunteer Dataset",
-  "description": "The NIMH Healthy Research Volunteer Dataset is a comprehensive neuroimaging and clinical characterization study of 1,859 healthy adults. The dataset includes structural and functional MRI, diffusion tensor imaging, magnetoencephalography, cognitive assessments, psychiatric evaluations, and biospecimens. This resource enables investigations into normal cognition, mood regulation, and brain function across a deeply phenotyped healthy population.",
-  "methods_description": "Data collection includes clinical interviews (SCID-5), cognitive testing (KBIT-2, NIH Toolbox), psychiatric assessments (DSM-5 measures, WHODAS 2.0), and neuroimaging. MRI protocol includes T1, T2, FLAIR, pCASL, DTI, and resting-state fMRI acquisitions. MEG battery comprises resting-state, task-based, and empty room recordings. Biological measures include blood pressure, laboratory panels, and banked blood samples for genetic analysis.",
+  "description": "A large-scale dataset characterizing healthy research volunteers recruited at the NIMH intramural program. It combines clinical assessments, mood psychometrics, neuropsychological and cognitive testing, structural and functional MRI, diffusion imaging, and a comprehensive MEG battery. Data are shared in BIDS format to support investigations of normal cognition and mood regulation.",
+  "methods_description": "Volunteers completed online pre-screening questionnaires, then an in-person screening with a history and physical exam, SCID-5, and KBIT-2. Optional MRI sessions used a protocol initially based on ADNI-3 and later modified to include ABCD elements, alongside NIH Toolbox Cognition Battery tasks. Optional MEG sessions were also acquired, and blood samples were banked for future genetic analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -43,35 +43,28 @@
   },
   "keywords": [
     {
-      "term": "MEG"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH"
     },
     {
-      "term": "MRI"
+      "term": "Magnetic Resonance Imaging",
+      "subject_scheme": "MeSH"
     },
     {
-      "term": "healthy volunteers"
+      "term": "Healthy Volunteers",
+      "subject_scheme": "MeSH"
     },
     {
-      "term": "neuroimaging"
+      "term": "Diffusion Tensor Imaging",
+      "subject_scheme": "MeSH"
     },
     {
-      "term": "cognitive assessment"
-    },
-    {
-      "term": "psychiatric evaluation"
-    },
-    {
-      "term": "diffusion tensor imaging"
+      "term": "neuropsychological assessment"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005752",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005752",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -99,38 +92,48 @@
       "identifier": "10.18112/openneuro.ds005752.v2.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005752",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2021.04.28.21256253",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institute of Mental Health",
       "award_number": "ZICMH002889"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institute of Mental Health",
       "award_number": "ZICMH002960"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institute of Mental Health",
       "award_number": "ZIAMH002783"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institute of Mental Health",
       "award_number": "ZIDMH00291"
     }
   ],
   "resource_type_general": "Dataset",
-  "resource_type_specific": "Diffusion MRI Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
-    "dwi",
     "anat",
+    "dwi",
     "func",
     "perf",
     "fmap",
     "meg"
   ],
   "sizes": [
-    "680.0 GB (11000 files)"
+    "633 GB (11000 files)"
   ],
   "formats": [
     ".acq",
